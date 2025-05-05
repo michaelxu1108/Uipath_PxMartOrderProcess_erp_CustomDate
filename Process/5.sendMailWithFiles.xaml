@@ -110,7 +110,7 @@
       <AssemblyReference>System.Data.SqlClient</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="sendMailWithFiles" sap:VirtualizedContainerService.HintSize="732.8000000000001,3635.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="sendMailWithFiles" sap:VirtualizedContainerService.HintSize="734.4000000000001,3635.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="dt_range" />
       <Variable x:TypeArguments="x:String" Name="email" />
@@ -405,7 +405,7 @@
         <If sap:VirtualizedContainerService.HintSize="651.2,2032" sap2010:WorkflowViewState.IdRef="If_1">
           <If.Condition>
             <InArgument x:TypeArguments="x:Boolean">
-              <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_100">todayWeek == "Friday" || todayWeek == "Saturday"</CSharpValue>
+              <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_114">todayWeek == "Friday"</CSharpValue>
             </InArgument>
           </If.Condition>
           <If.Then>
