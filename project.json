@@ -1,5 +1,5 @@
 {
-  "name": "全聯訂單流程_ERP",
+  "name": "全聯訂單流程_ERP_自訂讀取資料",
   "projectId": "e5aec0a6-5afb-413f-821d-3466505369e9",
   "description": "",
   "main": "Main.xaml",
@@ -17,7 +17,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "25.0.157.0",
-  "projectVersion": "1.0.29",
+  "projectVersion": "1.0.31",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,

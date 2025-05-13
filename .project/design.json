@@ -1,5 +1,9 @@
 {
-  "Tags": [],
+  "Tags": [
+    {
+      "Key": "HP - 後勤管理處"
+    }
+  ],
   "SeparateRuntimeDependencies": true,
   "IncludeSources": true
 }
