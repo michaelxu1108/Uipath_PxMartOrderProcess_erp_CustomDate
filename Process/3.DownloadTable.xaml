@@ -110,7 +110,7 @@
       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="DownloadTable" sap:VirtualizedContainerService.HintSize="792.8000000000001,8954.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="DownloadTable" sap:VirtualizedContainerService.HintSize="792.8000000000001,10976" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="todayWeek" />
     </Sequence.Variables>
@@ -142,7 +142,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:MultipleAssign>
-    <Sequence DisplayName="DownloadTable" sap:VirtualizedContainerService.HintSize="681.6,8782.4" sap2010:WorkflowViewState.IdRef="Sequence_8">
+    <Sequence DisplayName="DownloadTable" sap:VirtualizedContainerService.HintSize="681.6,10804" sap2010:WorkflowViewState.IdRef="Sequence_8">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -156,7 +156,7 @@
             <x:Boolean x:Key="IsPinned">False</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'jp2launcher.exe Oracle'" sap:VirtualizedContainerService.HintSize="449.6,2314.4" sap2010:WorkflowViewState.IdRef="WindowScope_1" InformativeScreenshot="1a626ce296f7d092b1b2348f2dccb8a2" Selector="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' /&gt;">
+        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'jp2launcher.exe Oracle'" sap:VirtualizedContainerService.HintSize="449.6,2314.4" sap2010:WorkflowViewState.IdRef="WindowScope_1" InformativeScreenshot="1a626ce296f7d092b1b2348f2dccb8a2" Selector="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='Oracle 應用管理系統 - NCERP正式環境' /&gt;">
           <ui:WindowScope.Body>
             <ActivityAction x:TypeArguments="x:Object">
               <ActivityAction.Argument>
@@ -180,7 +180,7 @@
                     </ui:CursorPosition>
                   </ui:Click.CursorPosition>
                   <ui:Click.Target>
-                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="821a5396-39b5-41cc-8807-aca22d97a644" InformativeScreenshot="bf16fb9a08aa1ebece2a4dbdce6b2aaa" Selector="&lt;java cls='ToolBar' idx='8' role='tool bar' /&gt;&lt;java name='切換職責(W)...' role='push button' /&gt;">
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="821a5396-39b5-41cc-8807-aca22d97a644" InformativeScreenshot="134c525aecbcd8fcb52fdcf32b51f39a" Selector="&lt;java cls='ToolBar' idx='8' role='tool bar' /&gt;&lt;java name='切換職責(W)*' role='push button' /&gt;">
                       <ui:Target.TimeoutMS>
                         <InArgument x:TypeArguments="x:Int32" />
                       </ui:Target.TimeoutMS>
@@ -1153,7 +1153,7 @@
         </ui:WindowScope>
       </Sequence>
       <Delay Duration="00:00:50" sap:VirtualizedContainerService.HintSize="648,121.6" sap2010:WorkflowViewState.IdRef="Delay_1" />
-      <Sequence DisplayName="DataDownload" sap:VirtualizedContainerService.HintSize="648,3818.4" sap2010:WorkflowViewState.IdRef="Sequence_3">
+      <Sequence DisplayName="DataDownload" sap:VirtualizedContainerService.HintSize="648,5840" sap2010:WorkflowViewState.IdRef="Sequence_3">
         <Sequence.Variables>
           <Variable x:TypeArguments="x:String" Name="ATTR06" />
           <Variable x:TypeArguments="x:String" Name="ATTR08" />
@@ -1167,7 +1167,7 @@
             <x:Boolean x:Key="IsPinned">False</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'jp2launcher.exe Oracle'" sap:VirtualizedContainerService.HintSize="614.4,3735.2" sap2010:WorkflowViewState.IdRef="WindowScope_7" InformativeScreenshot="c009e608c44cca372380bb1c4bce0095" Selector="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='Oracle 應用管理系統 - NCERP正式環境' /&gt;">
+        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'jp2launcher.exe Oracle'" sap:VirtualizedContainerService.HintSize="614.4,5756.8" sap2010:WorkflowViewState.IdRef="WindowScope_7" InformativeScreenshot="c009e608c44cca372380bb1c4bce0095" Selector="&lt;wnd app='jp2launcher.exe' cls='SunAwtFrame' title='Oracle 應用管理系統 - NCERP正式環境' /&gt;">
           <ui:WindowScope.Body>
             <ActivityAction x:TypeArguments="x:Object">
               <ActivityAction.Argument>
@@ -1178,7 +1178,7 @@
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="580.8,3564.8" sap2010:WorkflowViewState.IdRef="Sequence_4">
+              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="580.8,5586.4" sap2010:WorkflowViewState.IdRef="Sequence_4">
                 <Sequence.Variables>
                   <Variable x:TypeArguments="si:FileInfo" Name="file1" />
                 </Sequence.Variables>
@@ -1187,7 +1187,7 @@
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <Sequence DisplayName="NormalDay" sap:VirtualizedContainerService.HintSize="547.2,3504.8" sap2010:WorkflowViewState.IdRef="Sequence_41">
+                <Sequence DisplayName="NormalDay" sap:VirtualizedContainerService.HintSize="547.2,5526.4" sap2010:WorkflowViewState.IdRef="Sequence_41">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1504,10 +1504,10 @@
                     </ui:GetLastDownloadedFile>
                     <Delay Duration="00:00:06" sap:VirtualizedContainerService.HintSize="480,112.8" sap2010:WorkflowViewState.IdRef="Delay_13" />
                   </Sequence>
-                  <Sequence DisplayName="FileProcess" sap:VirtualizedContainerService.HintSize="513.6,56.8" sap2010:WorkflowViewState.IdRef="Sequence_40">
+                  <Sequence DisplayName="FileProcess" sap:VirtualizedContainerService.HintSize="513.6,2078.4" sap2010:WorkflowViewState.IdRef="Sequence_40">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
@@ -1521,7 +1521,7 @@
                     <ui:MoveFile ContinueOnError="{x:Null}" DestinationResource="{x:Null}" PathResource="{x:Null}" DisplayName="Move File" sap:VirtualizedContainerService.HintSize="449.6,190.4" sap2010:WorkflowViewState.IdRef="MoveFile_4" Overwrite="True">
                       <ui:MoveFile.Destination>
                         <InArgument x:TypeArguments="x:String">
-                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_53">System.IO.Path.Combine( Environment.GetFolderPath(Environment.SpecialFolder.UserProfile),"Desktop","UipathData","全聯訂單",DateTime.Now.ToString("yyyy_MM_dd"))</CSharpValue>
+                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_65">System.IO.Path.Combine( Environment.GetFolderPath(Environment.SpecialFolder.UserProfile),"Desktop","UipathData","全聯訂單","自訂日期",DateTime.Now.ToString("yyyy_MM_dd"))</CSharpValue>
                         </InArgument>
                       </ui:MoveFile.Destination>
                       <ui:MoveFile.Path>
