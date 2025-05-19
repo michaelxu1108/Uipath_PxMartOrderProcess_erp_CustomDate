@@ -110,7 +110,7 @@
       <AssemblyReference>System.Data.SqlClient</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="sendMailWithFiles" sap:VirtualizedContainerService.HintSize="792.8000000000001,2256.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="sendMailWithFiles" sap:VirtualizedContainerService.HintSize="792.8000000000001,1946.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="dt_range" />
       <Variable x:TypeArguments="x:String" Name="email" />
@@ -125,7 +125,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="sendMail" sap:VirtualizedContainerService.HintSize="681.6,2233.6" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="sendMail" sap:VirtualizedContainerService.HintSize="681.6,1923.2" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -374,7 +374,7 @@
           </ui:ExcelApplicationScope.WorkbookPath>
         </ui:ExcelApplicationScope>
       </Sequence>
-      <Sequence DisplayName="sendMail_訂單" sap:VirtualizedContainerService.HintSize="648,885.6" sap2010:WorkflowViewState.IdRef="Sequence_25">
+      <Sequence DisplayName="sendMail_訂單" sap:VirtualizedContainerService.HintSize="648,575.2" sap2010:WorkflowViewState.IdRef="Sequence_25">
         <Sequence.Variables>
           <Variable x:TypeArguments="x:String" Name="todayWeek" />
         </Sequence.Variables>
@@ -384,7 +384,7 @@
             <x:Boolean x:Key="IsPinned">False</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <umab:OutlookApplicationCard Account="{x:Null}" AccountMismatchBehavior="UseDefaultEmailAccount" DisplayName="訂單_Use Desktop Outlook App" sap:VirtualizedContainerService.HintSize="548.8,444" sap2010:WorkflowViewState.IdRef="OutlookApplicationCard_5">
+        <umab:OutlookApplicationCard Account="{x:Null}" AccountMismatchBehavior="UseDefaultEmailAccount" DisplayName="訂單_Use Desktop Outlook App" sap:VirtualizedContainerService.HintSize="449.6,444" sap2010:WorkflowViewState.IdRef="OutlookApplicationCard_5">
           <umab:OutlookApplicationCard.Body>
             <ActivityAction x:TypeArguments="um:IMailQuickHandle">
               <ActivityAction.Argument>
@@ -400,13 +400,13 @@
                   <ui:SendOutlookMail.Files>
                     <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
                       <InArgument x:TypeArguments="x:String">
-                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_66">System.IO.Path.Combine( Environment.GetFolderPath(Environment.SpecialFolder.UserProfile),"Desktop","UipathData","全聯訂單",DateTime.Now.ToString("yyyy_MM_dd"),"OrderReport.pdf")</CSharpValue>
+                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_115">System.IO.Path.Combine( Environment.GetFolderPath(Environment.SpecialFolder.UserProfile),"Desktop","UipathData","全聯訂單","自訂日期",DateTime.Now.ToString("yyyy_MM_dd"),"OrderReport.pdf")</CSharpValue>
                       </InArgument>
                       <InArgument x:TypeArguments="x:String">
-                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_113">System.IO.Path.Combine( Environment.GetFolderPath(Environment.SpecialFolder.UserProfile),"Desktop","UipathData","全聯訂單",DateTime.Now.ToString("yyyy_MM_dd"),"HSM"+DateTime.Now.ToString("yyMMdd")+"01.txt")</CSharpValue>
+                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_116">System.IO.Path.Combine( Environment.GetFolderPath(Environment.SpecialFolder.UserProfile),"Desktop","UipathData","全聯訂單","自訂日期",DateTime.Now.ToString("yyyy_MM_dd"),"HSM"+DateTime.Now.ToString("yyMMdd")+"01.txt")</CSharpValue>
                       </InArgument>
                       <InArgument x:TypeArguments="x:String">
-                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_99">System.IO.Path.Combine( Environment.GetFolderPath(Environment.SpecialFolder.UserProfile),"Desktop","UipathData","全聯訂單",DateTime.Now.ToString("yyyy_MM_dd"),"NCOMR049H_排車及發票明_"+DateTime.Now.ToString("yyyyMMdd")+".xls")</CSharpValue>
+                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_117">System.IO.Path.Combine( Environment.GetFolderPath(Environment.SpecialFolder.UserProfile),"Desktop","UipathData","全聯訂單","自訂日期",DateTime.Now.ToString("yyyy_MM_dd"),"NCOMR049H_排車及發票明_"+DateTime.Now.ToString("yyyyMMdd")+".xls")</CSharpValue>
                       </InArgument>
                     </scg:List>
                   </ui:SendOutlookMail.Files>
@@ -431,7 +431,7 @@
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
         </umab:OutlookApplicationCard>
-        <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="548.8,358.4" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+        <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="449.6,48" sap2010:WorkflowViewState.IdRef="CommentOut_2">
           <ui:CommentOut.Body>
             <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="513.6,256.8" sap2010:WorkflowViewState.IdRef="Sequence_27">
               <sap:WorkflowViewStateService.ViewState>
@@ -640,6 +640,12 @@
               </If>
             </Sequence>
           </ui:CommentOut.Body>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
         </ui:CommentOut>
       </Sequence>
     </Sequence>
