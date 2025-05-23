@@ -1533,7 +1533,7 @@
                     <ui:StartProcess Arguments="{x:Null}" WorkingDirectory="{x:Null}" DisplayName="Start Process" sap:VirtualizedContainerService.HintSize="449.6,120" sap2010:WorkflowViewState.IdRef="StartProcess_4">
                       <ui:StartProcess.FileName>
                         <InArgument x:TypeArguments="x:String">
-                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_54">System.IO.Path.Combine( Environment.GetFolderPath(Environment.SpecialFolder.UserProfile),"Desktop","UipathData","全聯訂單",DateTime.Now.ToString("yyyy_MM_dd"),"shipping_order1.tsv")</CSharpValue>
+                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_66">System.IO.Path.Combine( Environment.GetFolderPath(Environment.SpecialFolder.UserProfile),"Desktop","UipathData","全聯訂單","自訂日期",DateTime.Now.ToString("yyyy_MM_dd"),"shipping_order1.tsv")</CSharpValue>
                         </InArgument>
                       </ui:StartProcess.FileName>
                     </ui:StartProcess>
@@ -1664,7 +1664,7 @@
                               </ui:TypeInto.Target>
                               <ui:TypeInto.Text>
                                 <InArgument x:TypeArguments="x:String">
-                                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_60">"HSM"+DateTime.Now.ToString("yyMMdd")+"01.txt"</CSharpValue>
+                                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_67">"HSM"+DateTime.Now.ToString("yyMMdd")+"01-1.txt"</CSharpValue>
                                 </InArgument>
                               </ui:TypeInto.Text>
                             </ui:TypeInto>

@@ -403,7 +403,7 @@
                         <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_115">System.IO.Path.Combine( Environment.GetFolderPath(Environment.SpecialFolder.UserProfile),"Desktop","UipathData","全聯訂單","自訂日期",DateTime.Now.ToString("yyyy_MM_dd"),"OrderReport.pdf")</CSharpValue>
                       </InArgument>
                       <InArgument x:TypeArguments="x:String">
-                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_116">System.IO.Path.Combine( Environment.GetFolderPath(Environment.SpecialFolder.UserProfile),"Desktop","UipathData","全聯訂單","自訂日期",DateTime.Now.ToString("yyyy_MM_dd"),"HSM"+DateTime.Now.ToString("yyMMdd")+"01.txt")</CSharpValue>
+                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_118">System.IO.Path.Combine( Environment.GetFolderPath(Environment.SpecialFolder.UserProfile),"Desktop","UipathData","全聯訂單","自訂日期",DateTime.Now.ToString("yyyy_MM_dd"),"HSM"+DateTime.Now.ToString("yyMMdd")+"01-1.txt")</CSharpValue>
                       </InArgument>
                       <InArgument x:TypeArguments="x:String">
                         <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_117">System.IO.Path.Combine( Environment.GetFolderPath(Environment.SpecialFolder.UserProfile),"Desktop","UipathData","全聯訂單","自訂日期",DateTime.Now.ToString("yyyy_MM_dd"),"NCOMR049H_排車及發票明_"+DateTime.Now.ToString("yyyyMMdd")+".xls")</CSharpValue>
