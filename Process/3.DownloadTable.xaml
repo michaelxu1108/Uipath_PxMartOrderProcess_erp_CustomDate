@@ -110,7 +110,7 @@
       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="DownloadTable" sap:VirtualizedContainerService.HintSize="792.8000000000001,10976" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="DownloadTable" sap:VirtualizedContainerService.HintSize="857.6000000000001,10976" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="todayWeek" />
     </Sequence.Variables>
@@ -1422,6 +1422,7 @@
                         </ui:Target>
                       </ui:SendHotkey.Target>
                     </ui:SendHotkey>
+                    <Delay Duration="00:00:30" sap:VirtualizedContainerService.HintSize="480,121.6" sap2010:WorkflowViewState.IdRef="Delay_12" />
                     <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'text  FTP Format 必要數值清單'" sap:VirtualizedContainerService.HintSize="480,139.2" sap2010:WorkflowViewState.IdRef="Click_53" KeyModifiers="None" MouseButton="BTN_LEFT">
                       <ui:Click.CursorPosition>
                         <ui:CursorPosition Position="Center">
@@ -1456,7 +1457,6 @@
                         </ui:Target>
                       </ui:SetValue.Target>
                     </ui:SetValue>
-                    <Delay Duration="00:00:06" sap:VirtualizedContainerService.HintSize="480,121.6" sap2010:WorkflowViewState.IdRef="Delay_12" />
                     <ui:GetLastDownloadedFile FileResource="{x:Null}" IgnoreFiles="{x:Null}" Timeout="{x:Null}" DisplayName="Wait for Download" sap:VirtualizedContainerService.HintSize="480,480.8" sap2010:WorkflowViewState.IdRef="GetLastDownloadedFile_4">
                       <ui:GetLastDownloadedFile.Body>
                         <ActivityAction>
